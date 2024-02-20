@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 const connectToDatabase = async()=>{
     try{
-        const connection = await mongoose.connect("mongodb+srv://TodoList:T6IWoDrAZM3QKdfK@cluster0.8lzei0v.mongodb.net/?retryWrites=true&w=majority")
+        const connection = await mongoose.connect("mongodb+srv://TodoList:T6IWoDrAZM3QKdfK@Cluster0.8lzei0v.mongodb.net/todo-list-app?retryWrites=true&w=majority")
         if(connection){
             console.log("Connection Established")
         }
